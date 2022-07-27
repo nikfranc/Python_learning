@@ -1,7 +1,7 @@
 num1 = float(input())
 num2 = float(input())
 oper = input()
-operators = ['+', '-', '*', '/']
+operators = '-+/*'
 if (num2 == 0 and oper == '/') or oper not in operators:
     print(888888)
 else:

@@ -1,9 +1,9 @@
 print('Любите ли вы котиков?')
-str1 = input()
-if str1 == 'да' or str1 == 'нет':
+catsLoveFlag = input()
+if catsLoveFlag == 'да' or catsLoveFlag == 'нет':
     print('Умеете ли вы программировать?')
-    str2 = input()
-    if str2 == 'да' or str2 == 'нет':
+    coderFlag = input()
+    if coderFlag == 'да' or coderFlag == 'нет':
         print('Вы обладаете незаурдным умом.')
     else:
         print('Ошибка')

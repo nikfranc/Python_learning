@@ -1,2 +1,2 @@
 str = input()
-print(str*4)
+print(str * 4)

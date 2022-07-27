@@ -1,12 +1,17 @@
-growth1 = input()
-growth2 = input()
-growth3 = input()
-growth = [growth1, growth2, growth3]
-f = 0
-while f == 0:
-    f = 1
-    for i in range(2):
-        if growth[i] > growth[i + 1]:
-            growth[i], growth[i + 1] = growth[i + 1], growth[i]
-            swapped = 0
-print(growth)
+growth1, growth2, growth3 = int(input()), int(input()), int(input())
+
+if growth1 > growth2 and growth1 > growth3:
+    if growth2 > growth3:
+        print(growth1, growth2, growth3)
+    else:
+        print(growth1, growth3, growth2)
+elif growth2 > growth3:
+    if growth3 > growth1:
+        print(growth2, growth3, growth1)
+    else:
+        print(growth2, growth1, growth3)
+else:
+    if growth2 > growth1:
+        print(growth3, growth2, growth1)
+    else:
+        print(growth3, growth1, growth2)
