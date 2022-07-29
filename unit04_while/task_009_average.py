@@ -5,4 +5,4 @@ while currTemp > -300:
     sum += currTemp
     num += 1
     currTemp = float(input())
-print(round(sum/num, 1))
+print(sum / num)

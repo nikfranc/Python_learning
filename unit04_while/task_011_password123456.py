@@ -1,12 +1,9 @@
 password = input()
 if len(password) < 8:
     print('Короткий!')
-    exit(0)
-if '123' in password:
+elif '123' in password:
     print('Простой!')
-    exit(0)
-passCheck = input()
-if password != passCheck:
+elif password != input():
     print('Различаются')
-    exit(0)
-print('ОК')
+else:
+    print('ОК')

@@ -4,7 +4,7 @@ maxHeight = 0
 minHeight = 3000
 while currHeight != '!':
     intHeight = int(currHeight)
-    if intHeight > 150 and intHeight < 190:
+    if intHeight >= 150 and intHeight <= 190:
         astrNum += 1
     if intHeight > maxHeight:
         maxHeight = intHeight
