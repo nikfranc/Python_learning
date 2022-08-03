@@ -1,5 +1,5 @@
-squareSide = int(input())
-bugSpeed = int(input())
+squareSide = float(input())
+bugSpeed = float(input())
 distance = squareSide
 seconds = 0
 if distance != bugSpeed:

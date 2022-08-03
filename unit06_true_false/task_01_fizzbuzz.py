@@ -1,11 +1,17 @@
 a = int(input())
 b = int(input())
 for i in range(a, b + 1):
-    if i % 3 == 0 and i % 5 == 0:
-        print('FizzBuzz')
-    elif i % 3 == 0:
-        print('Fizz')
-    elif i % 5 == 0:
-        print('Buzz')
-    else:
+    str = ''
+    if i % 3 == 0:
+        str += 'Fizz'
+    if i % 5 == 0:
+        str += 'Buzz'
+    if i % 7 == 0:
+        str += 'Vuzz'
+    if i % 11 == 0:
+        str += 'Guzz'
+
+    if str == '':
         print(i)
+    else:
+        print(str)

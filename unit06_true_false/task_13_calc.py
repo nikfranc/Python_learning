@@ -4,7 +4,7 @@ while True:
 
     if operation == '!':
         fact = 1
-        for i in range(2, firstNum + 1):ищ
+        for i in range(2, firstNum + 1):
             fact *= i
         print(fact)
         continue
