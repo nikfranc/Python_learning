@@ -1,5 +1,4 @@
 num = int(input())
-divNum = 0
 for i in range(1, num):
     is_prime = True
     for j in range(2, i // 2 + 1):
@@ -7,7 +6,3 @@ for i in range(1, num):
             is_prime = False
     if is_prime:
         print(i)
-
-
-
-
