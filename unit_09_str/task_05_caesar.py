@@ -11,7 +11,7 @@ for i in range(ord('а'), ord('я') + 1):
 
 for i in range(len(message)):
     if message[i] in alph_low:
-        curr_index = alph_low.find(message[i])
+        curr_index = (message[i])
         if curr_index + gap > alph_low.find('я'):
             new_message += alph_low[gap - (len(alph_low) - curr_index)]
         else:
