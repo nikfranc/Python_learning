@@ -1,0 +1,1 @@
+print([int(i) for i in str(input()).split() if int(i) > 0])

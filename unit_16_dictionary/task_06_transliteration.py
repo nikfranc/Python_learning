@@ -12,8 +12,5 @@ for word in my_str.split():
             else:
                 print(dict[char], end='')
         else:
-            if char == 'ъ' or char == 'ь' or char == 'Ъ' or char == 'Ь':
-                print(end='')
-            else:
-                print(char, end='')
+            print(char, end='')
     print(end=' ')

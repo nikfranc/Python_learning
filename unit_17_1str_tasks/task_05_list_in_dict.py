@@ -1,0 +1,1 @@
+print(len(list(set(list({i: '' for i in str(input()).split()}.keys())) & set([i for i in str(input()).split()]))))
